@@ -32,4 +32,4 @@ jobs:
       - name: Navigate to Project Directory
         run: cd UtilityApplication  # Navigate to the directory containing pom.xml
       - name: Build and Test with Maven
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file ./UtilityApplication/pom.xml
