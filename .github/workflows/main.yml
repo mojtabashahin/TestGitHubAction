@@ -31,4 +31,4 @@ jobs:
         run: java -version
 
       - name: Build and Test with Maven
-        run: mvn clean compile test
+        run: mvn clean compile test ./UtlityApplication/pom.xml
