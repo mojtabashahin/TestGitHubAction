@@ -30,6 +30,6 @@ jobs:
       - name: Check Java Version
         run: java -version
       - name: Navigate to Project Directory
-        run: cd TestGitHubAction/UtilityApplication/  # Navigate to the directory containing pom.xml
+        run: cd UtilityApplication  # Navigate to the directory containing pom.xml
       - name: Build and Test with Maven
         run: mvn clean compile test
